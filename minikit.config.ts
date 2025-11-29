@@ -18,7 +18,7 @@ export const minikitConfig = {
     name: "Cubey", 
     subtitle: "Your AI Ad Companion", 
     description: "Ads",
-    screenshotUrls: [],
+    // screenshotUrls removed
     iconUrl: "",
     splashImageUrl: "",
     splashBackgroundColor: "#fbeec1",
