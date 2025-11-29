@@ -27,12 +27,9 @@ export default function Home() {
   };
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <Image src="/logo.png" alt="Logo" width={64} height={64} className={styles.logo} />
-        <Image src="/hero.png" alt="Hero" width={320} height={120} className={styles.hero} />
-      </div>
       <div className={styles.content}>
         <div className={styles.fortuneBox}>
+          <Image src="/logo.png" alt="Logo" width={64} height={64} className={styles.logo} />
           <h1 className={styles.title}>Fortune Cookie Generator</h1>
           <div className={styles.fortuneRow}>
             <Image src="/icon.png" alt="Fortune Icon" width={40} height={40} className={styles.icon} />
