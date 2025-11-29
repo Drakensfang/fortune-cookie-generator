@@ -29,6 +29,7 @@ export const minikitConfig = {
     primaryCategory: "social",
     tags: ["fortune", "fun", "entertainment", "random"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
+    imageUrl: `${ROOT_URL}/hero.png`,
     tagline: "Crack open a cookie and discover your future!",
     ogTitle: "Fortune Cookie Generator",
     ogDescription: "Discover your fortune instantly!",
