@@ -30,9 +30,9 @@ export const minikitConfig = {
     tags: ["fortune", "fun", "entertainment", "random"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
     imageUrl: "https://fortune-cookie-generator-tau.vercel.app/hero.png",
-    tagline: "Discover your fortune instantly",
+    tagline: "Discover your fortune",
     ogTitle: "Fortune Cookie Generator",
-    ogDescription: "Discover your fortune instantly",
+    ogDescription: "Discover your fortune",
     ogImageUrl: `${ROOT_URL}/hero.png`,
     noindex: false
   },
