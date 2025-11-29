@@ -15,11 +15,11 @@ export const minikitConfig = {
   },
   miniapp: {
     version: "1",
-    name: "Cubey", 
+    name: "Fortune Cookie Generator", 
     subtitle: "Your AI Ad Companion", 
     description: "Ads",
     // screenshotUrls removed
-    iconUrl: "",
+    iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: "",
     splashBackgroundColor: "#fbeec1",
     homeUrl: ROOT_URL,

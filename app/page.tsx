@@ -13,7 +13,12 @@ const fortunes = [
   "Adventure can be real happiness.",
   "Your talents will be recognized and suitably rewarded.",
   "A friend asks only for your time, not your money.",
-  "You will soon embark on a business venture."
+  "You will soon embark on a business venture.",
+  "Now is the time to try something new.",
+  "Your creativity will lead you to success.",
+  "You will find great fortune in unexpected places.",
+  "A fresh start will put you on your way.",
+  "Your positive attitude will bring you good luck.",
 ];
 
 export default function Home() {
