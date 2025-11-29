@@ -21,22 +21,22 @@ export const minikitConfig = {
     name: "Fortune Cookie Generator",
     subtitle: "Find your fortune!",
     description: "A simple Fortune Cookie Generator miniapp that provides users with random fortunes at the click of a button.",
-    iconUrl: `${ROOT_URL}/icon.png`,
-    splashImageUrl: `${ROOT_URL}/icon.png`,
+    iconUrl: "https://fortune-cookie-generator-tau.vercel.app/icon.png",
+    splashImageUrl: "https://fortune-cookie-generator-tau.vercel.app/icon.png",
     splashBackgroundColor: "#fbeec1",
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "social",
     tags: ["fortune", "fun", "entertainment", "random"],
-    heroImageUrl: `${ROOT_URL}/hero.png`,
+    heroImageUrl: "https://fortune-cookie-generator-tau.vercel.app/hero.png",
     imageUrl: "https://fortune-cookie-generator-tau.vercel.app/hero.png",
     tagline: "Discover your fortune",
     ogTitle: "Fortune Cookie Generator",
     ogDescription: "Discover your fortune",
-    ogImageUrl: `${ROOT_URL}/hero.png`,
+    ogImageUrl: "https://fortune-cookie-generator-tau.vercel.app/hero.png",
     noindex: false,
     screenshotUrls: [
-      `${ROOT_URL}/screenshot.png`
+      "https://fortune-cookie-generator-tau.vercel.app/screenshot.png"
     ]
   },
 } as const;
