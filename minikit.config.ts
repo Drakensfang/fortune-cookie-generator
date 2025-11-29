@@ -34,7 +34,10 @@ export const minikitConfig = {
     ogTitle: "Fortune Cookie Generator",
     ogDescription: "Discover your fortune",
     ogImageUrl: `${ROOT_URL}/hero.png`,
-    noindex: false
+    noindex: false,
+    screenshotUrls: [
+      `${ROOT_URL}/screenshot.png`
+    ]
   },
 } as const;
 
