@@ -13,24 +13,27 @@ export const minikitConfig = {
     payload: "",
     signature: ""
   },
+  baseBuilder: {
+    ownerAddress: ""
+  },
   miniapp: {
     version: "1",
-    name: "Fortune Cookie Generator", 
-    subtitle: "Find your fortune!", 
+    name: "Fortune Cookie Generator",
+    subtitle: "Find your fortune!",
     description: "A simple Fortune Cookie Generator miniapp that provides users with random fortunes at the click of a button.",
-    // screenshotUrls removed
     iconUrl: `${ROOT_URL}/icon.png`,
-    splashImageUrl: "",
+    splashImageUrl: `${ROOT_URL}/hero.png`,
     splashBackgroundColor: "#fbeec1",
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "social",
     tags: ["fortune", "fun", "entertainment", "random"],
-    heroImageUrl: "", 
-    tagline: "",
-    ogTitle: "",
-    ogDescription: "",
-    ogImageUrl: "",
+    heroImageUrl: `${ROOT_URL}/hero.png`,
+    tagline: "Crack open a cookie and discover your future!",
+    ogTitle: "Fortune Cookie Generator",
+    ogDescription: "Discover your fortune instantly!",
+    ogImageUrl: `${ROOT_URL}/hero.png`,
+    noindex: false
   },
 } as const;
 
