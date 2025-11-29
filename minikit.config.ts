@@ -22,7 +22,7 @@ export const minikitConfig = {
     subtitle: "Find your fortune!",
     description: "A simple Fortune Cookie Generator miniapp that provides users with random fortunes at the click of a button.",
     iconUrl: `${ROOT_URL}/icon.png`,
-    splashImageUrl: `${ROOT_URL}/hero.png`,
+    splashImageUrl: `${ROOT_URL}/icon.png`,
     splashBackgroundColor: "#fbeec1",
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
