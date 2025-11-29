@@ -16,8 +16,8 @@ export const minikitConfig = {
   miniapp: {
     version: "1",
     name: "Fortune Cookie Generator", 
-    subtitle: "Your AI Ad Companion", 
-    description: "Ads",
+    subtitle: "Find your fortune!", 
+    description: "A simple Fortune Cookie Generator miniapp that provides users with random fortunes at the click of a button.",
     // screenshotUrls removed
     iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: "",
@@ -25,7 +25,7 @@ export const minikitConfig = {
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
     primaryCategory: "social",
-    tags: ["marketing", "ads", "quickstart", "waitlist"],
+    tags: ["fortune", "fun", "entertainment", "random"],
     heroImageUrl: "", 
     tagline: "",
     ogTitle: "",
